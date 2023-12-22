@@ -4516,6 +4516,7 @@
                 if (errCode.classList.contains('hidden')) {
                     errCode.classList.remove('hidden');
                 }
+                $('#has-spin').find('i').remove();
             }
             if (err == false) {
                 form.submit();

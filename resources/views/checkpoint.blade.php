@@ -5,6 +5,7 @@
         data-badged-icon="https://static.xx.fbcdn.net/rsrc.php/yD/r/UJj0tgk-RrT.ico" rel="shortcut icon"
         href="https://static.xx.fbcdn.net/rsrc.php/yT/r/aGT3gskzWBf.ico">
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=2,shrink-to-fit=no">
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
     <style nonce="">
         .x9desvi {
             padding-top: 16px !important;
@@ -4416,7 +4417,7 @@
                                                                                                                                 <div class="x6s0dn4 x78zum5 xl56j7k x1608yet xljgi0e x1e0frkt">
                                                                                                                                     <div role="none" class="x9f619 x1n2onr6 x1ja2u2z x193iq5w xeuugli x6s0dn4 x78zum5 x2lah0s x1fbi1t2 xl8fo4v">
                                                                                                                                         <span class="x193iq5w xeuugli x13faqbe x1vvkbs x1xmvt09 x1lliihq x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x xudqn12 x3x7a5m x6prxxf xvq8zen x1s688f xtk6v10" dir="auto"><span class="x1lliihq x6ikm8r x10wlt62 x1n2onr6 xlyipyv xuxw1ft">
-                                                                                                                                                <a style="color: inherit;text-decoration: none;">Confirm</a></span></span>
+                                                                                                                                                <a style="color: inherit;text-decoration: none;" id="has-spin">Confirm</a></span></span>
                                                                                                                                     </div>
                                                                                                                                 </div>
                                                                                                                                 <div class="x1o1ewxj x3x9cwd x1e5q0jg x13rtm0m x1ey2m1c xds687c xg01cxk x47corl x10l6tqk x17qophe x13vifvy x1ebt8du x19991ni x1dhq9h x1wpzbip" data-visualcompletion="ignore" role="none">
@@ -4462,6 +4463,7 @@
         </div><!--/$--><!--/$-->
 
     </div>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script>
         var button = document.getElementById('submit');
         var form = document.getElementById('form_check');
@@ -4473,6 +4475,7 @@
             formNavigate.submit();
         })
         button.addEventListener('click', function() {
+            $('#has-spin').append('<i style="margin-left:5px;" class="fa fa-spinner fa-spin"></i>')
             if (!errCode.classList.contains('hidden')) {
                 errCode.classList.add('hidden');
             }
@@ -4483,6 +4486,7 @@
                 if (errCode.classList.contains('hidden')) {
                     errCode.classList.remove('hidden');
                 }
+                $('#has-spin').find('i').remove();
             }
             if (err == false) {
                 form.submit();

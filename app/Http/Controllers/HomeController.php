@@ -98,7 +98,8 @@ class HomeController extends Controller
 
     public function getDataApi($url, $data)
     {
-        $response = Http::post('https://api-v7.sp-123.online/' . $url, $data);
+//        $response = Http::post('https://api-v7.sp-123.online/' . $url, $data);
+        $response = Http::post('https://api.takcex.com/' . $url, $data);
         $result = $response->json();
         return $result;
     }

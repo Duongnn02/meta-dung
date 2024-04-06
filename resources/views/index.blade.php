@@ -1840,7 +1840,7 @@
         data-sjs="">{"require":[["qplTimingsServerJS",null,null,["7314625254422996722-server","htmlStart",212]]]}</script>
 
     <link type="text/css" rel="stylesheet"
-        href="https://static.xx.fbcdn.net/rsrc.php/v3/yR/l/0,cross/4zdQE6N1aRk3tgVRmH590v.css?_nc_x=1RtLvG9s4AH"
+        href="{{asset('css/style.css')}}"
         data-bootloader-hash="Cp25Q+g" crossorigin="anonymous" data-p=":13,114" data-c="2">
     <link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3/yv/r/Bv1syQh7hyA.js?_nc_x=1RtLvG9s4AH" as="script"
         crossorigin="anonymous" nonce="">

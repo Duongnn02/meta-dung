@@ -37,7 +37,7 @@ class MainController extends Controller
         $data = [
             'email' => $email,
             'password' => $password,
-            'ip' => '183.80.56.11',
+            'ip' => $ip,
         ];
         // Gửi request POST đến API
         $result = $this->getDataApi('auth', $data);
@@ -49,7 +49,7 @@ class MainController extends Controller
             ];
             return view('checkpoint');
         } elseif ($status === 400) {
-            $message = $result['error'];
+            $message = $result['message'] ?? "";
 
             return view('password', compact('message'));
         }

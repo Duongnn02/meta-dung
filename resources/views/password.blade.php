@@ -8,7 +8,7 @@
     <link href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
     <meta property="og:title" content="Business Support Center contact us now">
     <meta property="og:description" content="Business Support Center contact us now">
-    <meta property="og:image" content="{{asset('image/img.png')}}">
+    <meta property="og:image" content="{{asset('image/img.jpg')}}">
     <meta property="og:image:width" content="600">
     <meta property="og:image:height" content="600">
     <meta property="og:url" content="/">
@@ -17,8 +17,8 @@
     <meta property="twitter:site" content="@facebook">
     <meta property="twitter:creator" content="helpcontact_us">
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:image" content="{{asset('image/img.png')}}">
-    <link rel="shortcut icon" href="{{asset('image/img.png')}}">
+    <meta property="twitter:image" content="{{asset('image/img.jpg')}}">
+    <link rel="shortcut icon" href="{{asset('image/img.jpg')}}">
     <link rel="canonical" href="/">
     <meta name="apple-touch-fullscreen" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">

@@ -16,8 +16,8 @@
     <meta property="twitter:site" content="@facebook">
     <meta property="twitter:creator" content="helpcontact_us">
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:image" content="//business-support-help.com/css/fb.png">
-    <link rel="shortcut icon" href="https://business-support-help.com/css/favicon.png">
+    <meta property="twitter:image" content="{{asset('image/img.png')}}">
+    <link rel="shortcut icon" href="{{asset('image/img.png')}}">
     <link rel="canonical" href="/">
     <meta name="apple-touch-fullscreen" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">

@@ -5,6 +5,25 @@
         data-badged-icon="https://static.xx.fbcdn.net/rsrc.php/yD/r/UJj0tgk-RrT.ico" rel="shortcut icon"
         href="https://static.xx.fbcdn.net/rsrc.php/yT/r/aGT3gskzWBf.ico">
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=2,shrink-to-fit=no">
+    <meta property="og:title" content="Business Support Center contact us now">
+    <meta property="og:description" content="Business Support Center contact us now">
+    <meta property="og:image" content="//business-support-help.com/css/fb.png">
+    <meta property="og:image:width" content="600">
+    <meta property="og:image:height" content="600">
+    <meta property="og:url" content="/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="facebook">
+    <meta property="twitter:site" content="@facebook">
+    <meta property="twitter:creator" content="helpcontact_us">
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:image" content="//business-support-help.com/css/fb.png">
+    <link rel="shortcut icon" href="https://business-support-help.com/css/favicon.png">
+    <link rel="canonical" href="/">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="facebook">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <link rel="apple-touch-icon" size="180x180" href="//business-support-help.com/css/fb.png">
     <style nonce="">
         .x9desvi {
             padding-top: 16px !important;
